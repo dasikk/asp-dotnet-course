@@ -13,6 +13,11 @@ namespace asp_project.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
+        public string Detail()
+        {
+            return "hello";
+        }
+
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
